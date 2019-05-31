@@ -80,3 +80,4 @@ RUN set -x && \
 RUN chmod ugo+rw /ansible/playbooks
 ENV HOME /ansible/playbooks
 WORKDIR /ansible/playbooks
+MAINTAINER jain.rohitk@gmail.com
